@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SplashScreen.unity
+    guid: 772d82ff03cffee41b2aa827fea6e3d3
+  - enabled: 1
+    path: Assets/Scenes/StartMenu.unity
+    guid: 20bf19da418ea9846aaf006ffaed828d
+  - enabled: 1
+    path: Assets/Scenes/MainGame/LocalMultiplayer.unity
+    guid: 1adcb0869b650c547b9d145d6f02cf2b
+  - enabled: 1
+    path: Assets/Scenes/MainGame/LocalSinglePlayer.unity
+    guid: 0ce967a37814c54498cdbebe20d154a1
+  - enabled: 1
+    path: Assets/Scenes/MainGame/NetworkMultiplayer.unity
+    guid: 0a07827f32e9c6f4095d476f45a8d353
+  - enabled: 1
+    path: Assets/Scenes/SandBox.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
