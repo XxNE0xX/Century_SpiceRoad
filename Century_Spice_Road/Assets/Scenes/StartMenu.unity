@@ -171,7 +171,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -895,8 +895,8 @@ RectTransform:
   m_Father: {fileID: 1533691966}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1798,7 +1798,7 @@ PrefabInstance:
     - target: {fileID: 5322291996170539775, guid: 6e1548a7aaedd3c408b83f02e066e790,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -360
+      value: -379
       objectReference: {fileID: 0}
     - target: {fileID: 5322291996170539775, guid: 6e1548a7aaedd3c408b83f02e066e790,
         type: 3}
@@ -2141,7 +2141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1566842224
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2303,6 +2303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1609781605}
   - component: {fileID: 1609781606}
+  - component: {fileID: 1609781607}
   m_Layer: 5
   m_Name: VolumeSlider
   m_TagString: Untagged
@@ -2381,20 +2382,22 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1915097988}
-        m_MethodName: setVolume
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1609781607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609781604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 574ca5aaba539264084cae0af05831a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSrc: {fileID: 1915097987}
 --- !u!1001 &1656558794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2884,7 +2887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1753110918
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4033,7 +4036,7 @@ PrefabInstance:
     - target: {fileID: 9177364252279777845, guid: f60f1f3ba196a854bab93f9ec7262ef9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -501
+      value: -521
       objectReference: {fileID: 0}
     - target: {fileID: 9177364252279777845, guid: f60f1f3ba196a854bab93f9ec7262ef9,
         type: 3}
@@ -4483,7 +4486,7 @@ PrefabInstance:
     - target: {fileID: 5322291996170539775, guid: 6e1548a7aaedd3c408b83f02e066e790,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -103
+      value: -91
       objectReference: {fileID: 0}
     - target: {fileID: 5322291996170539775, guid: 6e1548a7aaedd3c408b83f02e066e790,
         type: 3}
